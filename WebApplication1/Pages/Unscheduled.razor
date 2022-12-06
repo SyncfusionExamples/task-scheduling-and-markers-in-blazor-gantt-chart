@@ -1,0 +1,62 @@
+﻿@page "/Unscheduled"
+<h3>Unscheduled</h3>
+
+@using Syncfusion.Blazor.Gantt
+<SfGantt DataSource="@TaskCollection" Height="450px" Width="700px" AllowUnscheduledTasks="true">
+    <GanttTaskFields Id="TaskId" Name="TaskName" StartDate="StartDate" EndDate="EndDate"
+                     Duration="Duration" Progress="Progress" Child="SubTasks">
+    </GanttTaskFields>
+</SfGantt>
+
+@code{
+    public List<TaskData> TaskCollection { get; set; }
+    protected override void OnInitialized()
+    {
+        this.TaskCollection = GetTaskCollection();
+    }
+
+    public class TaskData
+    {
+        public int TaskId { get; set; }
+        public string TaskName { get; set; }
+        public DateTime? StartDate { get; set; }
+        public DateTime? EndDate { get; set; }
+        public string Duration { get; set; }
+        public int Progress { get; set; }
+    }
+
+    public static List<TaskData> GetTaskCollection()
+    {
+        List<TaskData> Tasks = new List<TaskData>() {
+    new TaskData() {
+    TaskId = 1,
+    TaskName = "Project initiation",
+    Duration = "4"
+    },
+    new TaskData() {
+    TaskId = 2,
+    TaskName = "Identify site location",
+    StartDate = new DateTime(2019, 04, 02)
+    },
+    new TaskData() {
+    TaskId = 3,
+    TaskName = "Perform soil test",
+    EndDate = new DateTime(2019, 04, 08)
+    },
+    new TaskData() {
+    TaskId = 4,
+    TaskName = "Soil test approval",
+    StartDate = new DateTime(2019, 04, 02),
+    EndDate = new DateTime(2019, 04, 06),
+    Progress = 50
+    },
+    new TaskData() {
+    TaskId = 5,
+    TaskName = "Project estimation",
+    Duration = "0"
+    }
+};
+
+        return Tasks;
+    }
+}
