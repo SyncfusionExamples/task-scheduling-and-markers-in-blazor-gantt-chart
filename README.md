@@ -1,4 +1,4 @@
-# Description
+# Task Scheduling and Markers in Blazor Gantt Chart
 
 In this sample following features of Blazor Gantt is showcased.
 
@@ -20,3 +20,6 @@ In this sample following features of Blazor Gantt is showcased.
 # Use the following command to run the sample
 
 dotnet run
+
+## Blog referemce
+[Task Scheduling and Markers in Blazor Gantt Chart](https://www.syncfusion.com/blogs/post/task-scheduling-and-markers-in-blazor-gantt-chart.aspx)
