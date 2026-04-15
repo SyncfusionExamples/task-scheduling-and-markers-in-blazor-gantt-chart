@@ -1,25 +1,34 @@
 # Task Scheduling and Markers in Blazor Gantt Chart
 
-In this sample following features of Blazor Gantt is showcased.
+This repository contains a sample application that demonstrates task scheduling behaviors and marker features available in the Syncfusion Blazor Gantt Chart. The sample focuses on different scheduling modes and visual indicators used in project planning scenarios.
 
-* Task Scheduling
-	1. Auto Scheduling
-	2. Manual Scheduling
-	3. Custom Scheduling
-	4. Unscheduled Tasks
-	5. Baseline
-* Markers
-	1. Event Markers
-	2. Data Markers
-	3. Holidays
-	
-# Prerequisites:
+## Project Overview
 
-1. [.NET 6.0](https://dotnet.microsoft.com/en-us/download/dotnet/6.0)
+The Syncfusion Blazor Gantt Chart provides flexible task scheduling capabilities along with multiple marker options to highlight important dates and events. This project showcases how tasks can be scheduled automatically, manually, or through custom logic, as well as how unscheduled tasks and baselines are represented within the Gantt Chart timeline.
 
-# Use the following command to run the sample
+In addition to scheduling features, the sample demonstrates the use of markers to visually emphasize significant points in the schedule. Event markers, data markers, and holidays are displayed on the timeline to improve schedule visibility and planning accuracy.
 
+## Features
+
+### Task Scheduling
+- Automatic scheduling
+- Manual scheduling
+- Custom scheduling logic
+- Unscheduled tasks
+
+### Markers
+- Event markers for key milestones
+- Data markers for specific task-related dates
+- Holiday markers for non-working days
+
+## Prerequisites
+
+- .NET 6.0  
+  https://dotnet.microsoft.com/en-us/download/dotnet/6.0
+
+## Running the Sample
+
+Use the following command to run the application:
+
+```bash
 dotnet run
-
-## Blog referemce
-[Task Scheduling and Markers in Blazor Gantt Chart](https://www.syncfusion.com/blogs/post/task-scheduling-and-markers-in-blazor-gantt-chart.aspx)
