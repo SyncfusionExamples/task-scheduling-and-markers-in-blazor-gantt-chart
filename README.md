@@ -41,6 +41,7 @@ In addition to scheduling features, the sample demonstrates the use of markers t
 5. Explore different task scheduling modes and review the displayed markers on the timeline.
 
 ## Related links
+
 [Learn More about Blazor Gantt Chart](https://www.syncfusion.com/blazor-components/blazor-gantt-chart?utm_source=github&utm_medium=listing&utm_campaign=blazor-gantt-chart-github-samples) <br/><br/>
 [Download Free Trial](https://www.syncfusion.com/downloads?utm_source=github&utm_medium=listing&utm_campaign=blazor-gantt-chart-github-samples) <br/><br/>
 [Pricing](https://www.syncfusion.com/sales/products/blazor?utm_source=github&utm_medium=listing&utm_campaign=blazor-gantt-chart-github-samples) <br/><br/>
